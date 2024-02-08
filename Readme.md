@@ -2,6 +2,7 @@
 
 * Студент: [Андрей Орлов](https://up.htmlacademy.ru/htmlcss/39/user/2481595).
 * Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751).
+* Сайт: [Моя Седона](https://1fran1946.github.io/2481595-sedona-39/).
 
 ---
 
