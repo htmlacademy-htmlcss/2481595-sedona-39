@@ -3,10 +3,110 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+	<style>
+	:root {--blue: #5aace3;}
+	:root {--eee: #eee;}	
+	*:not(hr), *::after, *::before {box-sizing: border-box;margin:0;padding:0;border:0}ul {list-style-type: none}
+	.fs {border: 1px solid yellow; width:100%;min-height: 10px;}
+	.succ {color: red;}
+	#note::before {content:'';width:10px;height:10px; background: black;position: absolute;
+	top:-2px; left:69px;transform: rotate(45deg);
+	}
+	</style>
   </head>
   <body>
 
     <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+	
+	<button type="button" style="width:33px; height: 33px; border-radius: 50%;border: #00000020;"
+	onclick="over.style.display='block';"
+	>&gt;</button>
+	<div id="over" style="position: fixed; top:0; left:0; width: 100vw; height :100vh;background: #f2f2f2cc;"
+	onclick=""
+	>
+	<form id="f4" style="width: 409px; min-height: 100px;padding:37px; padding-right:47px;
+	background: white; position: fixed; top:50%; left:50%; transform: translate(-50%, -50%);
+	border-radius: 8px;"
+	onclick=""
+	>
+	<fieldset class="fs" style="display: flex;justify-content: space-between;
+	 
+	">
+	<span style="font-size:16px;">Поиск гостиницы в Седоне</span>
+	<button type="button" style="background: var(--eee);border-radius:50%;transform: translateX(50%);
+	width:30px; height:30px; font-size: 26px; line-height: 0;
+	"
+	onclick="over.style.display='none';"
+	>&times;
+	</button>
+	</fieldset>
+	
+	<fieldset class="fs" style="border: 1px solid yellow;">
+	<label style="display: flex;justify-content: space-between; align-items: center;">
+	<span style="font-size: 11px;">Дата заезда:</span>
+	<input type="date" style="width: 237px;border:1px solid blue;background: var(--eee);" value="20 мая 1998">
+	</label>
+	<span class="succ" style="padding-left: 100px;font-size: 10px;">Мы не можем отправить вас в прошлое.</span>
+	</fieldset>
+	
+	<fieldset class="fs" style="border: 1px solid yellow;display: flex; justify-content: space-between;">
+		<div style="width: 48%; display: inline-flex;justify-content: space-between; align-items: center;">
+			<span style="font-size: 11px;">Взрослые:</span>
+			
+			<div style="position: relative;">
+			<button type="button" style="position: absolute; top:1px; left:1px;width:20px;height:17px;"
+			onclick="adu.value=+adu.value-1;"
+			>-</button>
+			<button type="button" style="position: absolute; top:1px; right:1px;width:20px;height:17px;"
+			onclick="adu.value=+adu.value+1;"
+			>+</button>
+			<input id="adu" type="text" style="width: 64px;border:1px solid blue;
+			text-align: center;background: var(--eee);
+			" value="2">
+			</div>
+		</div>
+		
+		<div style="width: 48%; display: inline-flex;justify-content: space-between; align-items: center;">
+			<span style="font-size: 11px;">Дети:</span>
+			<div id="inf" style="position: relative;width:14px; height:14px;background: var(--blue);
+			border-radius:50%; font-size: 10px;color: white;text-align: center;
+			">i
+				<div id="note" style="position: absolute; top:19px; 
+				right: 50%; transform: translatex(50%);
+				color: white; background: black; font-size: 10px;
+				width:148px;height: 80px;border-radius: 5px;
+				padding: 10px;text-align: left;
+				">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</div>			
+			
+			</div>
+			<div style="position: relative;">
+			<button type="button" style="position: absolute; top:1px; left:1px;width:20px;height:17px;"
+			onclick="chd.value=+chd.value-1;"
+			>-</button>
+			<button type="button" style="position: absolute; top:1px; right:1px;width:20px;height:17px;"
+			onclick="chd.value=+chd.value+1;"
+			>+</button>
+			<input id="chd" type="text" style="width: 64px;border:1px solid blue;
+			text-align: center;background: var(--eee);
+			" value="2">
+			</div>
+		</div>		
 
+	</fieldset>	
+	
+	<button style="padding: 10px; width:100%; background: var(--blue);color: white;border-radius: 5px;">Найти</button>
+	
+	
+
+	</form>
+	
+	<img src="moda.bmp" style="position: fixed; top:50%; left: 50%;
+	transform: translate(50%, -33%); d0isplay: none;
+	">
+	</div>
+	<script>
+	//f4.addEventListener('click',(e)=>{e.stopPropagation();});
+	
+	</script>
   </body>
 </html>
