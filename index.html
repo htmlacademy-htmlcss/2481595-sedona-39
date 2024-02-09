@@ -3,10 +3,238 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+	<link rel="icon" type="image/x-icon" href= "data:image/gif;base64,R0lGODlhEAAQAPcAAJWVof7+/tbW2i0tRCwsQ6urtHd3hRkZMiAgORERK7y8xH5+i4uLmQkJIyUlPCEhOR4eNvr//2ZmdxQULsDAx11dbxwcNCIiOiQkPNTU2QAAF+Tk5gMDHyMjOw0NKHZ2hQoKJdbW20ZGWiUlPR0dNo6OmnNzggYGIcPDyU5OY11dbXBwgBMTLBMTLR8fOOzs7iwsQhsbM+Dg4hUVLxgYMT8/U7W1vurq7Lq6wi0tQwsLJaGhq52dqA0NJxsbNoqKl5SUoBcXMBwcNbKyumRkdIeHlJ2dqSgoPzY2TPf3+AAADTw8Ux4eNyQkOy4uRUBAVvz8/J6eqKiosScnPqiosoWFkuHh5AAADKSksisrQhUVLgMDHq+vuIGBjn9/jL29xS4uRNLS19XV2q2tuWpqegcHIm1tfHJygpSUn/Pz8wsLJg8PKQAADkZGWycnP6Wlr5OTn2BgcVtbbLe3v/39/QAAHB4eOa2ttgUFIFxcbpKSns7O1BISLPX19lNTZvj4+eDg5AoKJKensTk5UFZWaOnp7OLi5jc3TSkpQMHByTs7UAEBHBQULdra4Gdnd83N0lFRZE1NYba2vwAAGtjY2wYGIAEBHwgIIlpabAAAGwAAE8XFzLy8w7CwuZycp8LCyOnp69TU2Obm6Tw8UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQEewABACwAAAAAEAAQAAAI/wABFKAQ4kWAJFbE3KDzx9CjOZ4CGKggAkYPJVeUsKlD4hAkTAICHLAwooOPJVjGtLHTARGGTJ8CILhAIsaPCAbIRLhD4wAGDjETYCghAwgTDmU8fACUKJKmmAoymJgRpEkWM27wBFIkaZOVAAs0nKBBwMmBMxHy0Fg0qQ6oAAw2oKghxIUWNG/0CCpCiVOoAA04pLAx5MmWD3BCRIhQ6UpMBw9U3CAChYvOxREsqYn5oMMKHEWidEmDOcKMzQEgeGCRw4gUL4v3DOJTZssnARE+tNCRYMqXCHFA6GDkZI6oARI2RNhx5MQJNRz4EGoUodMoAhNAuOARgQqYNXL6FBJydGkNgfPokVQJI2COH/TnAwIAOw==">	
+	<style>
+	:root {--blue: #5aace3;}
+	:root {--eee: #eee;}	
+	
+	@font-face {
+	font-family: 'Read400';
+	src: local("Readex Regular"), local("Readex-Regular"), 
+	url("fonts/ptsans-400.woff2") format("truetype");
+	font-weight: 400;
+	font-style: normal; }
+	@font-face {
+	font-family: 'Read700';
+	src: local("Readex Regular"), local("Readex-Regular"), 
+	url("fonts/ptsans-700.woff2") format("truetype");
+	font-weight: 700;
+	font-style: normal; }	
+	*:not(hr), *::after, *::before {box-sizing: border-box;margin:0;padding:0;border:0}ul {list-style-type: none}
+	body {font-family: 'Read700';font-weight: 400;font-style: normal;}
+	.fs {border: 1px solid yellow; width:100%;min-height: 10px;}
+	.succ {color: red;}
+	#note::before {content:'';width:10px;height:10px; background: black;position: absolute;
+	top:-2px; left:69px;transform: rotate(45deg);
+	}
+	</style>
   </head>
   <body>
 
     <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+	
+	<button type="button" style="width:33px; height: 33px; border-radius: 50%;border: #00000020;"
+	onclick="over.style.display='block';"
+	>&gt;</button>
+	
+<pre>	
+Главная
+О седоне
+Гостиницы
+12
+Хочу сюда!
+---
+Седона — небольшой городок в Аризоне,
+заслуживающий большего!
+Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+Настоящий  городок
+Седона — не аттракцион для туристов, там течёт своя жизнь
+Небольшая
+площадь
+Красивая
+дорога
+Мало
+туристов
+Все достопримечательности находятся очень близко
+Ехать в Седону из Лас-Вегаса совсем не скучно!
+Большинство едет в Гранд Каньон и толпится там
+Там есть
+мост дьявола
+Да, по нему можно пройти! Если вы осмелитесь, разумеется
+Приезжайте в Седону отдохнуть в комфорте и уюте!
+Опытный персонал и качественное обслуживание!
+Жильё
+Еда
+Сувениры
+Рекомендуем пожить в настоящем мотеле, 
+всё как в кино!
+Всегда заказывайте
+топовый фирменный бургер, вы не разочаруетесь!
+Не только китайского, 
+но и настоящего местного производства!
+Заинтересовались?
+Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+ПОИСК ГОСТИНИЦЫ В седоне
+---
+Подпишитесь на рассылку
+Только полезная информация и никакого спама, честное бойскаутское!
+Ваш e-mail
+Подписаться
++7 (812) 812-12-12
 
+--------
+
+Главная
+О седоне
+Гостиницы
+12
+Хочу сюда!
+---
+Гостиницы Седоны
+Гостиницы
+Инфраструктура:
+Тип жилья:
+Стоимость, ₽:
+Бассейн
+Гостиница
+0
+от
+9000
+до
+Применить
+Парковка
+Мотель
+Wi-Fi
+Апартаменты
+Сбросить
+Найдено гостиниц: 38
+Сначала дешевые
+Amara Resort & Spa
+Villas at Poco Diablo
+Desert Quail Inn
+Гостиница
+От 4000 ₽
+Гостиница
+От 5000 ₽
+Гостиница
+От 2500 ₽
+подробнее
+в избранное
+подробнее
+в избранном
+подробнее
+в избранное
+Рейтинг: 8,5
+Рейтинг: 9,2
+Рейтинг: 6,9
+GreenTree Inn
+Гостиница
+От 1500 ₽
+подробнее
+в избранное
+Рейтинг: 5,0
+1
+2
+3
+4
+...
+10
+---
+Подпишитесь на рассылку
+Только полезная информация и никакого спама, честное бойскаутское!
+Ваш e-mail
+Подписаться
++7 (812) 812-12-12	
+	
+</pre>	
+	
+	
+	<div id="over" style="position: fixed; top:0; left:0; width: 100vw; height :100vh;background: #f2f2f2cc;"
+	onclick=""
+	>
+	<form id="f4" style="width: 409px; min-height: 100px;padding:37px; padding-right:47px;
+	background: white; position: fixed; top:50%; left:50%; transform: translate(-50%, -50%);
+	border-radius: 8px;"
+	onclick=""
+	>
+	<fieldset class="fs" style="display: flex;justify-content: space-between;
+	 
+	">
+	<span style="font-size:16px;">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</span>
+	<button type="button" style="background: var(--eee);border-radius:50%;transform: translateX(50%);
+	width:30px; height:30px; font-size: 26px; line-height: 0;
+	"
+	onclick="over.style.display='none';"
+	>&times;
+	</button>
+	</fieldset>
+	
+	<fieldset class="fs" style="border: 1px solid yellow;">
+	<label style="display: flex;justify-content: space-between; align-items: center;">
+	<span style="font-size: 11px;">Дата Заезда:</span>
+	<input type="date" style="width: 237px;border:1px solid blue;background: var(--eee);" value="20 мая 1998">
+	</label>
+	<span class="succ" style="padding-left: 100px;font-size: 10px;">Мы не можем отправить вас в прошлое.</span>
+	</fieldset>
+	
+	<fieldset class="fs" style="border: 1px solid yellow;display: flex; justify-content: space-between;">
+		<div style="width: 48%; display: inline-flex;justify-content: space-between; align-items: center;">
+			<span style="font-size: 11px;">Взрослые:</span>
+			
+			<div style="position: relative;">
+			<button type="button" style="position: absolute; top:1px; left:1px;width:20px;height:17px;"
+			onclick="adu.value=+adu.value-1;"
+			>-</button>
+			<button type="button" style="position: absolute; top:1px; right:1px;width:20px;height:17px;"
+			onclick="adu.value=+adu.value+1;"
+			>+</button>
+			<input id="adu" type="text" style="width: 64px;border:1px solid blue;
+			text-align: center;background: var(--eee);
+			" value="2">
+			</div>
+		</div>
+		
+		<div style="width: 48%; display: inline-flex;justify-content: space-between; align-items: center;">
+			<span style="font-size: 11px;">Дети:</span>
+			<div id="inf" style="position: relative;width:14px; height:14px;background: var(--blue);
+			border-radius:50%; font-size: 10px;color: white;text-align: center;
+			">i
+				<div id="note" style="position: absolute; top:19px; 
+				right: 50%; transform: translatex(50%);
+				color: white; background: black; font-size: 10px;
+				width:148px;height: 80px;border-radius: 5px;
+				padding: 10px;text-align: left;
+				">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</div>			
+			
+			</div>
+			<div style="position: relative;">
+			<button type="button" style="position: absolute; top:1px; left:1px;width:20px;height:17px;"
+			onclick="chd.value=+chd.value-1;"
+			>-</button>
+			<button type="button" style="position: absolute; top:1px; right:1px;width:20px;height:17px;"
+			onclick="chd.value=+chd.value+1;"
+			>+</button>
+			<input id="chd" type="text" style="width: 64px;border:1px solid blue;
+			text-align: center;background: var(--eee);
+			" value="2">
+			</div>
+		</div>		
+
+	</fieldset>	
+	
+	<button style="padding: 10px; width:100%; background: var(--blue);color: white;border-radius: 5px;">Найти</button>
+	
+	
+
+	</form>
+	
+	<img src="moda.bmp" style="position: fixed; top:50%; left: 50%;
+	transform: translate(50%, -33%); d0isplay: none;
+	">
+	</div>
+	<script>
+	//f4.addEventListener('click',(e)=>{e.stopPropagation();});
+	
+	</script>
   </body>
 </html>
